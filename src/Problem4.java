@@ -7,7 +7,7 @@
 public class Problem4 {
     public static void main(String[] args){
         int sum = 0, num = 1, prev = 0, temp = 0;
-        while(num < 4000000) {
+        while(num < 4_000_000) {
             temp = num;
             num += prev;
             prev = temp;
